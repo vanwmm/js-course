@@ -1,0 +1,17 @@
+@media screen and (max-width: 1180px){
+    .main {
+        display:block;
+    }
+
+    aside{
+        width: 100%;
+    }
+    
+    section.product-list {
+        padding: 10px;
+        display:grid;
+        grid-template-columns: (5,1fr);
+        grid-template-rows: (3,1fr);
+
+    }
+}
